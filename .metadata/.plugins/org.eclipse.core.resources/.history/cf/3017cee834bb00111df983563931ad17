@@ -1,0 +1,7 @@
+Strict Rules (Enforced by the Compiler)Allowed Characters:
+
+Names can contain letters (A-Z, a-z), digits (0-9), underscores (_), and dollar signs ($).First Character: Names cannot start with a digit (0-9).Case Sensitivity: Java is case-sensitive, meaning myVar and myvar are completely different identifiers.No Keywords: Reserved Java keywords (like int, class, or public) cannot be used as identifiers.No Spaces: Blank spaces or white spaces are not allowed within any name.
+
+
+
+Recommended Naming Conventions (Best Practices)Classes and Interfaces: Use PascalCase (start with a capital letter, and capitalize the first letter of each internal word). Names should typically be nouns (e.g., UserAccount, Runnable).Methods: Use camelCase (start with a lowercase letter, then capitalize internal words). Method names should usually be verbs or actions (e.g., calculateTotal, getDetails).Variables: Use camelCase starting with a lowercase letter. Names should be short yet descriptive (e.g., studentAge). Avoid single-letter names except for temporary loop counters like i, j, or k.Constants: Use UPPER_SNAKE_CASE (all uppercase letters with words separated by underscores _). Constants are typically declared as final (e.g., MAX_VALUE, PI).Packages: Always written in all-lowercase letters, usually following a reverse domain structure (e.g., com.example.myproject).

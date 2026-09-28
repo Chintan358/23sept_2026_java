@@ -1,0 +1,28 @@
+package basic;
+
+public class Datatypes {
+	public static void main(String[] args) {
+		
+		
+		byte b = -128;
+		short s = -32768;
+		int i = 125;
+		long l = 45454454545l;
+		
+		float f = 25.66656565f;
+		double d = 65.656565656565;
+		
+		System.out.println(f);
+		System.out.println(d);
+		
+		char ch = 'A';
+		
+		boolean bool = false;
+		
+		//String str = "fdf"; // String is not datatypes in java
+		
+		
+		
+		
+	}
+}

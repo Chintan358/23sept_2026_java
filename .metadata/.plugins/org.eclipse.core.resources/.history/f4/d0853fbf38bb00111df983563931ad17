@@ -1,0 +1,13 @@
+package basic;
+
+public class Datatypes {
+	public static void main(String[] args) {
+		
+		
+		byte b = -128;
+		
+		short s = -32768;
+		
+		
+	}
+}
