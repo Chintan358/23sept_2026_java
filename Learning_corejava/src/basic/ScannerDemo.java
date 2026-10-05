@@ -1,0 +1,21 @@
+package basic;
+
+import java.util.Scanner;
+
+public class ScannerDemo {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter value of a : ");
+		int a = sc.nextInt();
+		System.out.println("emnter price : ");
+		double d = sc.nextDouble();
+		System.out.println("Enter name : ");
+		String name = sc.next();
+		
+		System.out.println(a);
+		System.out.println(d);
+		System.out.println(name);
+		
+	}
+}
