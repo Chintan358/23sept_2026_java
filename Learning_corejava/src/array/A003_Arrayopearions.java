@@ -1,0 +1,16 @@
+package array;
+
+public class A003_Arrayopearions {
+	public static void main(String[] args) {
+		
+		int a[] = {10,5,69,89,74,24,25,64};
+		int sum = 0;
+		for (int i = 0; i < a.length; i++) {
+			sum = sum+a[i];
+		}
+		
+		System.out.println(sum);
+		System.out.println(sum/a.length);
+		
+	}
+}

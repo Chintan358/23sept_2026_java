@@ -1,0 +1,22 @@
+package array;
+
+public class A001_ArrayDemo {
+	public static void main(String[] args) {
+		
+		//declaration
+		int a[] = new int[5];
+		
+		//initialization
+		a[0] = 20;
+		a[1] = 40;
+		a[2] = 50;
+		
+		
+		for(int i=0;i<5;i++)
+		{
+			System.out.println(a[i]);
+		}
+		
+		
+	}
+}
