@@ -3,14 +3,54 @@ package array;
 public class A003_Arrayopearions {
 	public static void main(String[] args) {
 		
-		int a[] = {10,5,69,89,74,24,25,64};
-		int sum = 0;
-		for (int i = 0; i < a.length; i++) {
-			sum = sum+a[i];
+//		int a[] = {10,5,69,89,74,24,25,64};
+//		int sum = 0;
+//		for (int i = 0; i < a.length; i++) {
+//			sum = sum+a[i];
+//		}
+//		
+//		System.out.println(sum);
+//		System.out.println(sum/a.length);
+//		
+//		int max = a[0]; //89
+//		int min = a[0];
+//		for (int i = 0; i < a.length; i++)
+//		{
+//			if(a[i]>max)
+//			{
+//				max = a[i];
+//			}
+//			
+//			if(a[i]<min)
+//			{
+//				min = a[i];
+//			}
+//		}
+//		
+//		System.out.println("max : "+max);
+//		System.out.println("min : "+min);
+		
+		
+		// second highest
+		int a[] = {5,7,8,4,56,41,55,66,98,45,98,89,12,36};
+		
+		int max = a[0];  //5 7 8 56
+		int smax = a[0]; //5 5 7 8
+		for (int i = 0; i < a.length; i++){
+			if(a[i]>max)
+			{
+				smax=max;
+				max = a[i];
+			}
+			else if(a[i]>smax && a[i]!=max)
+			{
+				smax = a[i];
+			}
 		}
 		
-		System.out.println(sum);
-		System.out.println(sum/a.length);
+		System.out.println(max);
+		System.out.println(smax);
+		
 		
 	}
 }

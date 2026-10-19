@@ -1,0 +1,38 @@
+package array;
+
+public class A005_MDArray {
+	public static void main(String[] args) {
+		
+		
+//		int a[][] = new int[3][3];
+//		
+//		a[0][0] = 20;
+//		a[0][1] = 30;
+//		a[0][2] = 40;
+//		
+//		a[1][0] = 26;
+//		a[1][1] = 35;
+//		a[1][2] = 40;
+//		
+//		a[2][0] = 25;
+//		a[2][1] = 33;
+//		a[2][2] = 48;
+		
+		
+		int a[][] = {{20,50,60},{74,80,59},{14,52,63}};
+
+
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				System.out.print(a[i][j]+" ");
+			}
+			System.out.println();
+		}
+		
+		
+		
+		
+	}
+}

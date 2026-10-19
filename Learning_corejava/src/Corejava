@@ -45,6 +45,28 @@ looping : for, while, do-while
 control : break, continue
 
 
+******************************************
+OOPS :
+*****
+class
+-logical entity
+
+object
+-realtime entity
+
+state     / variables / data memeber
+behaviour / methods  / function member
+
+
+
+
+inheritance
+poymorphism
+encaptulation
+abstraction
+
+
+
 
 
 

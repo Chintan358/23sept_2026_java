@@ -1,0 +1,44 @@
+package array;
+
+public class A004_ArrayCopy {
+	public static void main(String[] args) {
+		
+		
+//		int a[] = {10,20,30,40,50,60,70,80,90};
+//		int b[]  = new int[a.length];
+		
+//		System.arraycopy(a, 0, b, 0, 0);
+		
+//		for (int i = 0; i < a.length; i++) {
+//			b[i] = a[i];
+//		}
+//		
+//		
+//		for (int i = 0; i < b.length; i++) {
+//			System.out.println(b[i]);
+//		}
+		
+		
+		int i[] = {1,2,3,4,5};
+		int j[] = {6,7,8,9,10};
+		int k[] = new int[i.length+j.length];
+		
+		for (int a = 0; a < i.length; a++) {
+			k[a] = i[a];
+		}
+		
+		for (int a = 0; a < j.length; a++) {
+			k[i.length+a] = j[a];
+		}
+		
+		
+		for (int k2 = 0; k2 < k.length; k2++) {
+			System.out.println(k[k2]);
+		}
+		
+		
+		
+		
+		
+	}
+}
