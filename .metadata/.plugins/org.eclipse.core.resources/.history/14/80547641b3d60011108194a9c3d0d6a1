@@ -1,0 +1,25 @@
+package oops;
+
+class Pen
+{
+	//data member / variables
+	String color = "red";
+	int price = 50;
+	String company = "Cello";
+	
+	
+	//function member / methods
+	public void toWrite()
+	{
+		System.out.println("write method calling");
+	}
+}
+
+public class O001_ClassDemo {
+	public static void main(String[] args) {
+		
+		Pen p1 = new Pen();
+		p1.toWrite();
+		
+	}
+}
